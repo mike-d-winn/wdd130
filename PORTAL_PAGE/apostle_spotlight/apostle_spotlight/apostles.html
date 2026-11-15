@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background-color: tan;
+            text-align: center;
+        }
+        h1, h2 {
+            color: white;
+        }
+        #square {
+            height: 700px;
+            width: 900px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url("images/christus.webp");
+            background-repeat: no-repeat;
+            background-position-x: -500px;
+        }
+        #first-pres {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+        }
+        #pres-pics {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%
+        }
+        #quorum {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin-top: 30px;
+        }
+        #quorum-pics {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+        }
+        #oaks {
+            height: 120px;
+            width: 120px;
+        }
+        .spotlight {
+            border: 10px solid white;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            overflow: hidden;
+        }
+        .pres {
+            height: 100px;
+            width: 100px;
+        }
+        .spotlight img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="square">
+        <section id="first-pres">
+            <h1>First Presidency</h1>
+            <div id="pres-pics">
+                <div class="spotlight pres">
+                    <img src="images/eyring.webp" alt="eyring">
+                </div>
+                <div class="spotlight pres" id="oaks">
+                    <img src="images/oaks.webp" alt="oaks">
+                </div>
+                <div class="spotlight pres">
+                    <img src="images/christofferson.webp" alt="christofferson">
+                </div>
+            </div>
+        </section>
+        <section id="quorum">
+            <h2>Quorum of the Twelve Apostles</h2>
+            <div id="quorum-pics">
+                <div class="spotlight">
+                    <img src="images/uchtdorf.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/bednar.webp" alt="bednar">
+                </div>
+                <div class="spotlight">
+                    <img src="images/cook.webp" alt="cook">
+                </div>
+                <div class="spotlight">
+                    <img src="images/anderson.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/rasband.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/stevenson.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/renlund.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/gong.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/soares.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/kearon.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/causse.webp" alt="uchtdorf">
+                </div>
+                <div class="spotlight">
+                    <img src="images/gilbert.webp" alt="uchtdorf">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
